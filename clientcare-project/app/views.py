@@ -6,5 +6,5 @@ def home(request):
 def order(request):
     return render(request,'app/order.html')
 
-def hourly(request):
-    return render(request,'app/hourly.html')
+def guarantee(request):
+    return render(request,'app/guarantee.html')

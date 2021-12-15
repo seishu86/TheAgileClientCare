@@ -1,10 +1,14 @@
 <h1>Create your case </h1>
 
 <form>
-    <label for="Job"> Job: </label>
-    <input id="Job" type="text" name="Create a job">
+    <label for="Case"> Case Name: </label><br>
+    <input id="Case Name" type="text" name="Create a job"><br>
 
+    <label for="Description">Description:</label><br>
+    <textarea name="message" rows="10" cols="30">Enter details of the case</textarea><br>
 
+    <label for="hourly"> Estimated duration (hours): </label><br>
+    <input id="Case Name" type="number" name="Create a job"><br>
 </form>
 
-<a href="{% url 'hourly' %}">Next</a>
+<a href="{% url 'guarantee' %}">Next</a>
