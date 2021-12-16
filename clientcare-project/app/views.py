@@ -8,3 +8,6 @@ def order(request):
 
 def guarantee(request):
     return render(request,'app/guarantee.html')
+
+def approach(request):
+    return render(request,'app/approach.html')
